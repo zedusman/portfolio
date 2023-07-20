@@ -20,6 +20,15 @@ body{
     background-position: center;
     
 }
+/* Media query for mobile devices with a maximum width of 768 pixels */
+@media (max-width: 768px) {
+    body {
+      background-image: url('colorful_laptop_with_black_background_4k_hd_black_aesthetic.jpg');
+      background-size: cover; /* Adjusts the background image to cover the entire container */
+      background-repeat: no-repeat;
+    
+    }
+  }
 .container{
     padding: 10px 10%;
 }
